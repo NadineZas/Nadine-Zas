@@ -9,50 +9,51 @@
     <meta property="og:title" content=" Veterinaria Marindia">
     <meta property="og:image" content="https://www.promedco.com/images/NOTICIAS_2020/reducir-estres-de-mascotas-1.jpg">
 
-    <!-- Link a CSS -->
-    <link rel="stylesheet" href="../css/style.css">
-
-   <!-- Link a Bootstrap -->
    
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/estilos.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Veterinaria Marinida</title>
+    
 
-    <title>Contacto</title>
+   <title>Contacto</title>
+
 </head>
+
 <body>
 
     <header>
        
     
-        <nav class="nav">
+        <nav class="nav navbar navbar-expand-lg">
             <div class="nav-brand">
                 <a href="../index.html">
                     <img src="../multimedia/logo.jpg" class="logo" alt="logo de la empresa"  >
                 </a>
-                <h1>Veterinaria Marindia </h1>
-            </div>
+            <h1>Veterinaria Marindia</h1>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="nav-list">
+                        <li><a href="../index.html" class="nav-link"> Inicio</a></li>
+                        <li><a href="../pages/contacto.html" class="nav-link">Contacto</a></li>
+                        <li><a href="../pages/reservadehora.html" class="nav-link">Reserva de hora</a></li>
+                        <li><a href="../pages/servicios.html" class="nav-link">Servicios</a></li>
+                        <li><a href="../pages/sobrenosotros.html" class="nav-link">Sobre nosotros</a></li>
+                    </ul>
+                </div>
                
-            <ul class="nav-list">
-                   
-            <li><a href="../index.html" class="nav-link"> Inicio</a></li>
-            <li><a href="contacto.html" class="nav-link">Contacto</a></li>
-            <li><a href="reservadehora.html" class="nav-link">Reserva de hora</a></li>
-            <li><a href="servicios.html" class="nav-link">Servicios</a></li>
-            <li><a href="sobrenosotros.html" class="nav-link">Sobre nosotros</a></li>
-        </ul>
-               
-            </nav>
     </header>
 
     <!--- Main- -->
 
     <main>
 
-        <section>
-            <h2> Contacto </h2>
-        </section>
-
-           
-        <form>
+        <h3 class="mt-0 pt-2 text-center">Formulario de contacto </h3>
+ 
+           <form>
 
         <div>
                 <label for="nombre"> Nombre:</label>
@@ -67,6 +68,7 @@
             </div>
 
            <div>
+            
             <label for="constraseña">Contraseña:</label>
             <input type="text" name="contraseña" placeholder="Ingrese su contraseña">
            </div>
@@ -101,9 +103,9 @@
         <p> Panambi manzana 32 solar 25  </p>
         <p> Tel. 26225218 </p>
 
-        <div class="logo-footer">
-            <a href="../index.html">
-                <img src="../multimedia/logo.jpg" class="logo-footer" alt="logo de la empresa"  >
+        <div class="logo-footer justify-content-center text-center">
+            <a href="../index.html" class="bg-transparent" >
+                <img src="../multimedia/logo.jpg" class="logo-footer img-fluid" alt="logo de la empresa"  >
                 <h3>Veterinaria Marindia</h3>
             </a>
 
